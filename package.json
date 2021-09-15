@@ -1,8 +1,8 @@
 {
-  "name": "use-debouncer-hook",
+  "name": "hook-use-debouncer",
   "version": "1.0.0",
   "description": "",
-  "main": "useDebounce.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/MhmdNdri/react-debouncer.git"
   },
-  "author": "Mohammad Ndri",
+  "keywords": [
+    "hook",
+    "debouncer"
+  ],
+  "author": "Mohammad Naderi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MhmdNdri/react-debouncer/issues"

@@ -29,7 +29,7 @@ function useTimeOut(callback, delay) {
   return { reset, clear };
 }
 
-export default function useDebounce(callback, delay, dependencies) {
+export default function useDebouncer(callback, delay, dependencies) {
   const { reset, clear } = useTimeOut(callback, delay);
   useEffect(() => reset, [...dependencies, reset]);
   useEffect(() => clear, []);
